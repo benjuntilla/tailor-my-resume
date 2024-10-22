@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tailor-my-resume"
+version = "0.1.0"
+description = ""
+authors = ["Ben Juntilla <ben@benjuntilla.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.39.0"
+Crawl4AI = "^0.3.71"
+PyYAML = "^6.0.2"
+python-dotenv = "^1.0.1"
+anthropic = "^0.36.2"
+openai = "^1.52.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
