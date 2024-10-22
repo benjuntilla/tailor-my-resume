@@ -6,9 +6,9 @@
 - render `tailored.yaml` with `rendercv` 
 
 ## system dependencies (outside of what's in `pyproject.toml`)
-- poetry
-- rendercv
-- wl-copy (i guess it doesn't have to be wayland-specific but whatever)
+- `poetry`
+- `rendercv`
+- `wl-clipboard` (i guess it doesn't have to be wayland-specific but whatever)
 
 ## installation
 `poetry install`
